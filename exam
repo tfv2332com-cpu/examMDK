@@ -88,6 +88,10 @@ name    IN    A    ip
 Где ip - полный айпишник
 
 
+
+chown root:named /etc/bind/zone/sa.admin - зона прямого просмотра 
+chown root:named /etc/bind/zone/192. 168.0. in-addr.arpa и обратного просмотра
+
 SSH
 
 
