@@ -19,7 +19,9 @@ ISP
 
 iptables -t nat -A POSTROUTING -o ens33 -j MASQUERADE 
 
+Сохраняем настройки
 
+iptables-save > /etc/sysconfig/iptables
 
 DNS СЕРВЕР
 ==========
